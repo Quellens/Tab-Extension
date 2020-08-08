@@ -4,8 +4,7 @@
   "manifest_version": 2,
 "permissions": [
           "tabs",
-          "activeTab",
-          "<all_urls>"
+          "activeTab"
 ],
  "background" : {
         "scripts" : ["background.js"]
@@ -16,16 +15,14 @@
               "default": "Ctrl+Left",
               "mac": "Command+Shift+Left"
             },
-            "description": "Toggle Left"
+            "description": "Switch to the Left"
           }, 
           "toggle-right": {
             "suggested_key": {
               "default": "Ctrl+Right",
               "mac": "Command+Shift+Right"
             },
-            "description": "Toggle Right"
+            "description": "Switch to the Right"
           }
-    
-        }
-    
+        } 
 }
