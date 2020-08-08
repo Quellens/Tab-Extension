@@ -1,3 +1,7 @@
 # Tab-Extension
 
-Doesn´t work right now...
+ (￣y▽,￣)╭ 
+ 
+ Dont works when you close tabs
+
+
