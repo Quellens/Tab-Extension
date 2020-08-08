@@ -1,9 +1,9 @@
-let currentTab; 
+let currentTab;
 
 chrome.tabs.query(
   {currentWindow: true},
    function(tabArray){
-   
+    currentTab = tabArray.filter(ob=>ob.active)[0];
     chrome.commands.onCommand.addListener(function(command) {
                 
      if(command == "toggle-left"){
@@ -30,4 +30,4 @@ function getCurrentTab(info){
     })
 }
 
-chrome.tabs.onActivated.addListener(getCurrentTab);
+chrome.tabs.onActivated.addListener(getCurrentTab);  
