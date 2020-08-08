@@ -1,30 +1,14 @@
-console.log("Extension is working")
-
 chrome.tabs.query(
-  { active : true},
+  {currentWindow: true},
    function(tabArray){
-       console.log(tabArray)
-  chrome.extension.onMessage.addListener(function(message, sender){
-    let tabID = tabArray[0].id;
-      if(tabArray[0].index < 0){
-         if(message.left){
-        console.log("LEFT")
-        //chrome.tabs.warmup(tabID)
-           }
-
-         if(message.right){
-        console.log("RIGHT")
-          }   
-   }
-  
-}) 
-  }
-);
-
-
-/*chrome.tabs.getSelected(null, function(tab) {
-
-    
+    let active = tabArray.filter(ob => ob.active )[0];
+    chrome.commands.onCommand.addListener(function(command) {
+     if(command == "toggle-left"){
+        console.log("left");
+     }
+     
+     if(command == "toggle-right"){
+        console.log("right");  
+     }
 });
-*/
-
+});
