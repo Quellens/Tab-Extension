@@ -15,14 +15,16 @@
               "default": "Ctrl+Left",
               "mac": "Command+Shift+Left"
             },
-            "description": "Switch to the Left"
+            "description": "Navigate to the left page."
           }, 
           "toggle-right": {
             "suggested_key": {
               "default": "Ctrl+Right",
               "mac": "Command+Shift+Right"
             },
-            "description": "Switch to the Right"
+            "description": "Navigate to the right page"
           }
-        } 
+    
+        }
+    
 }
