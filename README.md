@@ -1,11 +1,10 @@
 # Tab-Extension - Tabs Navigator
 
- (￣y▽,￣)╭ 
- This chrome extension allows for the navigation of the browser tabs with keyboard shortcuts. 
+ This chrome extension allows to navigate the browser tabs with keyboard shortcuts. 
  
 The default shortcuts are:
-- Strg + ←: Navigate to the left tab
-- Strg + →: Navigate to the right tab
+- Strg + Left Arrow: Navigate to the left tab
+- Strg + Right Arrow: Navigate to the right tab
 
 ## Installation
 
