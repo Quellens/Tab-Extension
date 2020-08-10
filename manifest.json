@@ -29,14 +29,14 @@
               "default": "Ctrl+Up",
               "mac": "Command+Shift+Up"
             },
-            "description": "Navigate two steps to the right"
+            "description": "Jump over the right tab"
           }, 
           "toggle-two-left": {
             "suggested_key": {
               "default": "Ctrl+Down",
               "mac": "Command+Shift+Down"
             },
-            "description": "Navigate two steps to the left"
+            "description":"Jump over the left tab"
           }
     
         }
