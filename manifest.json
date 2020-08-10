@@ -23,6 +23,20 @@
               "mac": "Command+Shift+Right"
             },
             "description": "Navigate to the right page"
+          }, 
+          "toggle-two-right": {
+            "suggested_key": {
+              "default": "Ctrl+Up",
+              "mac": "Command+Shift+Up"
+            },
+            "description": "Navigate two steps to the right"
+          }, 
+          "toggle-two-left": {
+            "suggested_key": {
+              "default": "Ctrl+Down",
+              "mac": "Command+Shift+Down"
+            },
+            "description": "Navigate two steps to the left"
           }
     
         }
