@@ -1,4 +1,4 @@
-# Tab-Extension - Tabs Navigator
+# TabsControl
 
  This chrome extension allows to navigate between the browser tabs with keyboard shortcuts. 
  
