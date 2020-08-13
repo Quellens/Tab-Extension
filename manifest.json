@@ -2,6 +2,10 @@
   "name": "TabControl",
   "version": "1.0",
   "manifest_version": 2,
+  "description": "This extension can quickly switch to other open tabs with just your keyboard.",
+  "icons": { "16": "src/icon16.png",
+           "48": "src/icon48.png",
+          "128": "src/icon128.png" },
 "permissions": [
           "tabs",
           "activeTab"
